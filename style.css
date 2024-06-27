@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+img{
+    width: 23%;
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+    filter: contrast(150%);
+}
+
+img:hover{
+    transform: scale(1.2);
+    transition: all 2s ease-in-out;
+}
